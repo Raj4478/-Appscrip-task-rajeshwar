@@ -1,4 +1,3 @@
-
 export async function getServerSideProps() {
   return {
     redirect: {
@@ -9,3 +8,6 @@ export async function getServerSideProps() {
 }
 
 
+export default function AppRedirect() {
+  return null;
+}
